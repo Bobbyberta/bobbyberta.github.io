@@ -1,0 +1,57 @@
+.simpleBox {
+    position: relative;
+
+    width: auto;
+
+    /*top, right, bottom, left*/
+    margin: 10px 100px 10px 100px;
+
+    padding: 10px;
+
+    background-color: white;
+    border: solid 10px #F53F27;
+
+    border-bottom: solid 15px #F53F27;
+    border-left: solid 15px #F53F27;
+
+
+    text-align: center;
+
+    min-width: 300px;
+}
+
+.closerLook {
+    position: relative;
+    width: auto;
+
+    float: left;
+
+    /*top, right, bottom, left*/
+    margin: 10px 100px 10px 100px;
+
+    padding: 10px;
+
+    background-color: white;
+    border: solid 10px #F53F27;
+
+    border-bottom: solid 15px #F53F27;
+    border-left: solid 15px #F53F27;
+}
+
+.rightInfo {
+    position: relative;
+    width: auto;
+
+    float: right;
+
+    /*top, right, bottom, left*/
+    margin: 10px 100px 10px 100px;
+
+    padding: 10px;
+
+    background-color: white;
+    border: solid 10px #F53F27;
+
+    border-bottom: solid 15px #F53F27;
+    border-left: solid 15px #F53F27;
+}

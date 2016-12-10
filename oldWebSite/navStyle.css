@@ -1,0 +1,109 @@
+#navigation {
+
+    position: fixed;
+    top: 45%;
+    width: 100%;
+
+    min-width: 850px;
+
+    z-index: 1;
+}
+
+.arrow {
+    border: 0;
+    padding: 0;
+
+    margin-left: 15px;
+    margin-right: 30px;
+
+    height: 0;
+    width: 0;
+}
+
+.left {
+
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+
+    position: absolute;
+
+    left: 0;
+}
+
+.left:after {
+
+    content:'';
+
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-right: 50px solid whitesmoke;
+
+    position: absolute;
+
+    top: -50px;
+    left: 10px;
+
+}
+
+
+.right {
+
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+
+    position: absolute;
+
+    right: 0;
+}
+
+
+.right:after {
+
+    content:'';
+
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 50px solid whitesmoke;
+
+    position: absolute;
+
+    top: -50px;
+    right: 10px;
+
+}
+
+/*Index Page*/
+
+.left_blue {
+    border-right: 60px solid #009ED9;
+}
+
+.right_blue {
+    border-left: 60px solid #009ED9;
+}
+
+.right_blue:hover {
+    border-left: 60px solid #F53F27;
+}
+
+.left_blue:hover {
+    border-right: 60px solid #F53F27;
+}
+
+/*Greater Than You Page*/
+
+.left_green {
+    border-right: 60px solid #61BA56;
+}
+
+.right_green {
+    border-left: 60px solid #61BA56;
+}
+
+.right_green:hover {
+    border-left: 60px solid #009ED9;
+}
+
+.left_green:hover {
+    border-right: 60px solid #009ED9;
+}
