@@ -25,6 +25,8 @@
     "kelp2": "assets2/kelp_02.png",
 
     "play2": "assets2/playButton2.png",
+    "joystickB": "assets2/joystickB.png",
+    "joystickHandle": "assets2/joyStickHandle.png",
 
     "up": "assets/levelUp.png",
     "loose": "assets/levelDown.png",

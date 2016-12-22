@@ -86131,6 +86131,7 @@ var GreaterThan;
             var DEFAULT_GAMEDATA = {
                 currentDepth: 0,
                 currentWorld: 0,
+                controls: 'mouse',
                 startDepth: 0,
                 endDepth: 0,
                 timePlayer: 0,
@@ -86392,7 +86393,9 @@ GreaterThan.Main.prototype = {
 
     gameState: {},
 
-    preload: function preload() {},
+    preload: function preload() {
+        game.load.script('joystick', 'phaser-virtual-joystick.min.js');
+    },
 
     create: function create() {
         this.gameData = this.game.userData.gameData;
@@ -86478,6 +86481,10 @@ GreaterThan.Main.prototype = {
             playerSpeed: 500,
             playerDrag: 200,
             coolDownTime: 0.75,
+
+            //controls
+            controls: this.gameData.controls,
+            joyStickAlive: false,
 
             //Depth Progression Information
             depth: depthId - GreaterThan.WORLDS[worldId].lowestDepth,
@@ -86588,8 +86595,6 @@ GreaterThan.Main.prototype = {
     _addKelp: function _addKelp(bounds) {
         var i;
 
-        console.log("I here... somewhere...");
-
         //Adding in kelp
         this.kelpGroup = this.add.group();
 
@@ -86599,9 +86604,6 @@ GreaterThan.Main.prototype = {
             this.kelp.width = game.rnd.integerInRange(100, 300);
             this.kelp.height = this.gameState.worldSizeX;
             this.kelp.alpha = game.rnd.realInRange(0.5, 0.95);
-
-            console.log("This happened");
-            console.log(this.kelp);
         }
     },
     _addBackgroundColour: function _addBackgroundColour() {
@@ -86749,6 +86751,7 @@ GreaterThan.Main.prototype = {
         this.game.tweens.pauseAll();
         this.game.paused = true;
     },
+
     // This checks click events - if they hit a button the handler takes the appropriate action.
     _unpause: function _unpause() {
         if (this.game.paused) {
@@ -86760,6 +86763,18 @@ GreaterThan.Main.prototype = {
                 this.game.paused = false;
                 this.game.tweens.resumeAll();
             }
+            if (this.mouseButton.getBounds().contains(this.game.input.x, this.game.input.y)) {
+                this.gameState.controls = 'mouse';
+                this._checkControlType();
+            }
+            if (this.arrowsButton.getBounds().contains(this.game.input.x, this.game.input.y)) {
+                this.gameState.controls = 'arrow';
+                this._checkControlType();
+            }
+            // if (this.joystickButton.getBounds().contains(this.game.input.x, this.game.input.y)) {
+            //     this.gameState.controls = 'joystick';
+            //     this._checkControlType();
+            // }
         }
     },
     _addPauseMenu: function _addPauseMenu() {
@@ -86784,6 +86799,38 @@ GreaterThan.Main.prototype = {
         }, this);
         this.pauseGroup.add(this.continueButton);
 
+        this.mouseButton = game.add.sprite(0, 0, "mouse");
+        this._setUIPosition(this.mouseButton, 1.4, 1.4);
+        this.mouseButton.frame = 0;
+        this.mouseButton.inputEnabled = true;
+        this.mouseButton.events.onInputDown.add(function () {
+            this._changeController();
+        }, this);
+
+        this.pauseGroup.add(this.mouseButton);
+
+        this.arrowsButton = game.add.sprite(0, 0, "arrow");
+        this._setUIPosition(this.arrowsButton, 2, 1.4);
+        this.arrowsButton.frame = 0;
+        this.arrowsButton.inputEnabled = true;
+        this.arrowsButton.events.onInputDown.add(function () {
+            this._changeController();
+        }, this);
+
+        this.pauseGroup.add(this.arrowsButton);
+
+        this.joystickButton = game.add.sprite(0, 0, "joystick");
+        this._setUIPosition(this.joystickButton, 3.6, 1.4);
+        this.arrowsButton.frame = 0;
+        this.joystickButton.inputEnabled = true;
+        this.joystickButton.events.onInputDown.add(function () {
+            this._changeController();
+        }, this);
+
+        this._checkControlType();
+
+        this.pauseGroup.add(this.joystickButton);
+
         this._addPauseText(i18n.t("paused"), "#213f6b", 2, 4);
         this._addPauseText(i18n.t("quit"), "#19a3e0", 3.5, 2);
         this._addPauseText(i18n.t("continue"), "#19a3e0", 1.4, 2);
@@ -86802,6 +86849,24 @@ GreaterThan.Main.prototype = {
     },
     _togglePauseMenu: function _togglePauseMenu() {
         this.pauseGroup.visible = !this.pauseGroup.visible;
+    },
+    _changeController: function _changeController() {},
+    _checkControlType: function _checkControlType() {
+        if (this.gameState.controls == 'mouse') {
+            this.mouseButton.frame = 1;
+            this.arrowsButton.frame = 0;
+            this.joystickButton.frame = 0;
+        }
+        if (this.gameState.controls == 'arrow') {
+            this.mouseButton.frame = 0;
+            this.arrowsButton.frame = 1;
+            this.joystickButton.frame = 0;
+        }
+        if (this.gameState.controls == 'joystick') {
+            this.mouseButton.frame = 0;
+            this.arrowsButton.frame = 0;
+            this.joystickButton.frame = 1;
+        }
     },
     addPlayer: function addPlayer() {
         this.player = this.add.sprite(this.config.worldSizeX / 2, this.config.worldSizeY / 2, '');
@@ -86847,8 +86912,13 @@ GreaterThan.Main.prototype = {
 
     _playerMovement: function _playerMovement(speedMax) {
 
-        this._mouseMovement(speedMax);
-        //this._keysMovement(speedMax);
+        if (this.gameState.controls == 'arrow') {
+            this._keysMovement(speedMax);
+        } else if (this.gameState.controls == 'joystick') {
+            this._joyStickMovement(speedMax);
+        } else if (this.gameState.controls == 'mouse') {
+            this._mouseMovement(speedMax);
+        }
 
         this.checkAnimation(this.player, this.sub);
         this._checkFlipProp(this.player, this.prop, this.speed);
@@ -86857,7 +86927,6 @@ GreaterThan.Main.prototype = {
         this.player.rotation = game.physics.arcade.moveToPointer(this.player, speedMax, game.input.activePointer, 500);
         this.player.angle = 0;
     },
-
     _keysMovement: function _keysMovement(speedMax) {
 
         this.player.body.drag.x = speedMax * 2;
@@ -86875,7 +86944,27 @@ GreaterThan.Main.prototype = {
             this.player.body.velocity.y = speedMax;
         }
     },
+    _joyStickMovement: function _joyStickMovement() {
+        var pad = this.game.plugins.add(Phaser.VirtualJoystick);
+    },
+    _addJoystick: function _addJoystick(pointer) {
+        var pointerX, pointerY;
 
+        pointerX = pointer.x;
+        pointerY = pointer.y;
+
+        this.joystickGroup = this.add.group();
+
+        this.joyStickBg = game.add.sprite(pointerX, pointerY, 'joystickB');
+        this.joyStickBg.anchor.setTo(0.5, 0.5);
+        this.joyStickBg.fixedToCamera = true;
+        this.joystickGroup.add(this.joyStickBg);
+
+        this.joyStickHandle = game.add.sprite(pointerX, pointerY, 'joystickHandle');
+        this.joyStickHandle.anchor.setTo(0.5, 0.5);
+        this.joyStickHandle.fixedToCamera = true;
+        this.joystickGroup.add(this.joyStickHandle);
+    },
     checkAnimation: function checkAnimation(object, frame) {
         var pointA = object.body.x;
 
@@ -87429,6 +87518,7 @@ GreaterThan.Main.prototype = {
     _updateGameData: function _updateGameData() {
         this.gameData.currentScore = this.gameState.score;
         this.gameData.timePlayed = this.timer.ms;
+        this.gameData.controls = this.gameState.controls;
 
         this.game.apiManager.updateGameData({
             timePlayed: this.gameData.timePlayed,
@@ -87743,6 +87833,9 @@ GreaterThan.Preloader.prototype = {
         this.game.load.spritesheet('stars', 'assets2/starSprites.png', 160, 60, 4);
         this.game.load.spritesheet('light', 'assets2/lightAnim.png', 1024, 768, 3);
         this.game.load.spritesheet('you', 'assets/player.png', 75, 75, 4);
+        this.game.load.spritesheet('mouse', 'assets2/mouseSprite110x203.png', 110, 203, 2);
+        this.game.load.spritesheet('arrow', 'assets2/arrowSprite226x149.png', 226, 149, 2);
+        this.game.load.spritesheet('joystick', 'assets2/joystickSprite183x183.png', 183, 183, 2);
     },
 
     create: function create() {
