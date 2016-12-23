@@ -86478,7 +86478,7 @@ GreaterThan.Main.prototype = {
             //Player information
             playerCurrentValue: GreaterThan.DEPTHS[depthId].playerValue,
             alive: true,
-            playerSpeed: 500,
+            playerSpeed: 450,
             playerDrag: 200,
             coolDownTime: 0.75,
 
@@ -87466,18 +87466,16 @@ GreaterThan.Main.prototype = {
         this._updateDepthUp();
     },
     _textSolvedAnimation: function _textSolvedAnimation(value, sign) {
-        var screenX = this.config.viewSizeX;
-        var screenY = this.config.viewSizeY;
 
-        this.solvedEquation = game.add.text(this.player.x, this.player.y, this.gameState.playerCurrentValue + sign + value, { fill: "#24475b", font: "Comic Sans MS", fontSize: "20pt" });
+        this.answerGroup = game.add.group();
+
+        this.solvedEquation = game.add.text(500, 300, this.gameState.playerCurrentValue + sign + value, { fill: "#24475b", font: "Comic Sans MS", fontSize: "20pt" });
+        this.solvedEquation.anchor.setTo(0.5, 0.5);
+        this.solvedEquation.fixedToCamera = true;
         this.answerGroup.add(this.solvedEquation);
 
-        this.solvedEquation.fixedToCamera = true;
-        this.solvedEquation.cameraOffset.setTo(screenX / 2, screenY / 2 - 250);
-        this.solvedEquation.anchor.setTo(0.5, 0.5);
-
-        game.add.tween(this.solvedEquation).to({ x: 100 }, 3000, Phaser.Easing.Linear.None, true);
-        game.add.tween(this.solvedEquation).to({ alpha: 0 }, 3000, Phaser.Easing.Linear.None, true);
+        game.add.tween(this.answerGroup).to({ y: -200 }, 3000, Phaser.Easing.Linear.None, true);
+        game.add.tween(this.answerGroup).to({ alpha: 0 }, 3000, Phaser.Easing.Linear.None, true);
     },
     _died: function _died() {
         this.gameState.alive = false;
@@ -87493,22 +87491,20 @@ GreaterThan.Main.prototype = {
         this._showPoints(entity.pointsValue);
     },
     _showPoints: function _showPoints(valueOfPoints) {
-        var screenX = this.config.viewSizeX;
-        var screenY = this.config.viewSizeY;
-
         this.textGroup = game.add.group();
 
-        this.textPointsShadow = game.add.text(this.player.x, this.player.y + 400, "+ " + valueOfPoints, { fill: "#24475b", font: "Comic Sans MS", fontSize: "20pt" });
-        this.textPoints = game.add.text(this.player.x, this.player.y, '+ ' + valueOfPoints, { fill: "#ffffff" });
-
+        this.textPointsShadow = game.add.text(300, 100, "+ " + valueOfPoints, { fill: "#24475b", font: "Comic Sans MS", fontSize: "20pt" });
+        this.textPointsShadow.anchor.setTo(0.5, 0.5);
+        this.textPointsShadow.fixedToCamera = true;
         this.textGroup.add(this.textPointsShadow);
+
+        this.textPoints = game.add.text(300, 100, '+ ' + valueOfPoints, { fill: "#ffffff" });
+        this.textPoints.anchor.setTo(0.5, 0.5);
+        this.textPoints.fixedToCamera = true;
         this.textGroup.add(this.textPoints);
 
-        this.textGroup.fixedToCamera = true;
-        this.textGroup.cameraOffset.setTo(screenX / 2, screenY / 2);
-
-        game.add.tween(this.textGroup).to({ x: 100 }, 3000, Phaser.Easing.Linear.None, true);
-        game.add.tween(this.textGroup).to({ alpha: 0 }, 3000, Phaser.Easing.Linear.None, true);
+        game.add.tween(this.textGroup).to({ y: -50 }, 1500, Phaser.Easing.Linear.None, true);
+        game.add.tween(this.textGroup).to({ alpha: 0 }, 1500, Phaser.Easing.Linear.None, true);
     },
 
     //API methods
