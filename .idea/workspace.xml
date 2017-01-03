@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c923634e-e45e-4291-8431-b818da1886f6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webLearnMaths2/src/aim.html" afterPath="$PROJECT_DIR$/webLearnMaths2/src/aim.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webLearnMaths2/src/gettingStarted.html" afterPath="$PROJECT_DIR$/webLearnMaths2/src/gettingStarted.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webLearnMaths2/src/index.html" afterPath="$PROJECT_DIR$/webLearnMaths2/src/index.html" />
     </list>
     <ignored path="bobbyberta.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,8 +38,8 @@
       <file leaf-file-name="gettingStarted.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webLearnMaths2/src/gettingStarted.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="54" column="136" selection-start-line="54" selection-start-column="136" selection-end-line="54" selection-end-column="136" />
+            <state relative-caret-position="496">
+              <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -300,12 +298,12 @@
       <workItem from="1481475053137" duration="128000" />
       <workItem from="1481755733011" duration="118000" />
       <workItem from="1481808057487" duration="594000" />
-      <workItem from="1482836515173" duration="3821000" />
+      <workItem from="1482836515173" duration="3888000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54509000" />
+    <option name="totallyTimeSpent" value="54576000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
@@ -722,8 +720,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webLearnMaths2/src/gettingStarted.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="54" column="136" selection-start-line="54" selection-start-column="136" selection-end-line="54" selection-end-column="136" />
+        <state relative-caret-position="496">
+          <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
           <folding />
         </state>
       </provider>
