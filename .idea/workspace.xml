@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c923634e-e45e-4291-8431-b818da1886f6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webLearnMaths2/src/gettingStarted.html" afterPath="$PROJECT_DIR$/webLearnMaths2/src/gettingStarted.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webLearnMaths2/src/index.html" afterPath="$PROJECT_DIR$/webLearnMaths2/src/index.html" />
     </list>
     <ignored path="bobbyberta.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,17 +25,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webLearnMaths2/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="48" column="116" selection-start-line="48" selection-start-column="116" selection-end-line="48" selection-end-column="116" />
+            <state relative-caret-position="301">
+              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gettingStarted.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gettingStarted.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webLearnMaths2/src/gettingStarted.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="151">
@@ -91,8 +90,8 @@
         <option value="$PROJECT_DIR$/webLearnMaths/src/index.html" />
         <option value="$PROJECT_DIR$/webLearnMaths2/src/example.html" />
         <option value="$PROJECT_DIR$/webLearnMaths2/src/aim.html" />
-        <option value="$PROJECT_DIR$/webLearnMaths2/src/index.html" />
         <option value="$PROJECT_DIR$/webLearnMaths2/src/gettingStarted.html" />
+        <option value="$PROJECT_DIR$/webLearnMaths2/src/index.html" />
       </list>
     </option>
   </component>
@@ -300,12 +299,12 @@
       <workItem from="1481755733011" duration="118000" />
       <workItem from="1481808057487" duration="594000" />
       <workItem from="1482836515173" duration="4314000" />
-      <workItem from="1483451596943" duration="187000" />
+      <workItem from="1483451596943" duration="704000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55189000" />
+    <option name="totallyTimeSpent" value="55706000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="6" />
@@ -627,14 +626,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webLearnMaths/src/index.html" />
     <entry file="file://$PROJECT_DIR$/webLearnMaths2/src/example.html" />
-    <entry file="file://$PROJECT_DIR$/webLearnMaths2/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="116" selection-start-line="48" selection-start-column="116" selection-end-line="48" selection-end-column="116" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webLearnMaths2/src/gettingStarted.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
@@ -647,6 +638,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webLearnMaths2/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
           <folding />
         </state>
       </provider>
