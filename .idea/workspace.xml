@@ -2,23 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c923634e-e45e-4291-8431-b818da1886f6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oldWebSite2/GTY.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oldWebSite2/Phaser.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oldWebSite2/arrows.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oldWebSite2/content.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oldWebSite2/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oldWebSite2/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oldWebSite2/title.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oldWebSite3/src/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webLearnMaths/src/aim.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webLearnMaths/src/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webLearnMaths/src/css/normalize.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webLearnMaths/src/example.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webLearnMaths/src/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webLearnMaths/src/quotes.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webLearnMaths/src/resources.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webLearnMaths/src/aim.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webLearnMaths/src/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webLearnMaths/src/css/normalize.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webLearnMaths/src/example.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webLearnMaths/src/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webLearnMaths/src/quotes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webLearnMaths/src/resources.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bobbyberta.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,70 +33,30 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webLearnMaths/src/index.html">
+        <entry file="file://$PROJECT_DIR$/webLearnMaths2/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+            <state relative-caret-position="256">
+              <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="quotes.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webLearnMaths/src/quotes.html">
+      <file leaf-file-name="gettingStarted.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webLearnMaths2/src/gettingStarted.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="47" column="116" selection-start-line="47" selection-start-column="116" selection-end-line="47" selection-end-column="116" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="resources.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/webLearnMaths/src/resources.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="591">
-              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="example.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webLearnMaths/src/example.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+            <state relative-caret-position="210">
+              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="aim.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webLearnMaths/src/aim.html">
+        <entry file="file://$PROJECT_DIR$/webLearnMaths2/src/aim.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="37" column="64" selection-start-line="37" selection-start-column="64" selection-end-line="37" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webLearnMaths/src/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="771">
-              <caret line="284" column="1" selection-start-line="284" selection-start-column="1" selection-end-line="284" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="normalize.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webLearnMaths/src/css/normalize.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="315">
+              <caret line="40" column="15" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -142,8 +93,12 @@
         <option value="$PROJECT_DIR$/webLearnMaths/src/example.html" />
         <option value="$PROJECT_DIR$/webLearnMaths/src/quotes.html" />
         <option value="$PROJECT_DIR$/webLearnMaths/src/aim.html" />
-        <option value="$PROJECT_DIR$/webLearnMaths/src/index.html" />
         <option value="$PROJECT_DIR$/webLearnMaths/src/resources.html" />
+        <option value="$PROJECT_DIR$/webLearnMaths/src/index.html" />
+        <option value="$PROJECT_DIR$/webLearnMaths2/src/example.html" />
+        <option value="$PROJECT_DIR$/webLearnMaths2/src/index.html" />
+        <option value="$PROJECT_DIR$/webLearnMaths2/src/aim.html" />
+        <option value="$PROJECT_DIR$/webLearnMaths2/src/gettingStarted.html" />
       </list>
     </option>
   </component>
@@ -154,8 +109,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="797" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -211,7 +167,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webLearnMaths" />
+              <option name="myItemId" value="webLearnMaths2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -229,15 +185,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webLearnMaths" />
+              <option name="myItemId" value="oldWebSite3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -252,7 +204,6 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="FullScreen" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
@@ -350,15 +301,19 @@
       <workItem from="1481016149459" duration="11940000" />
       <workItem from="1481124291919" duration="12117000" />
       <workItem from="1481296237245" duration="9000" />
-      <workItem from="1481299775824" duration="9906000" />
+      <workItem from="1481299775824" duration="10286000" />
+      <workItem from="1481475053137" duration="128000" />
+      <workItem from="1481755733011" duration="118000" />
+      <workItem from="1481808057487" duration="594000" />
+      <workItem from="1482836515173" duration="1654000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49468000" />
+    <option name="totallyTimeSpent" value="52342000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -413,15 +368,26 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/webLearnMaths/src/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4260">
+          <caret line="284" column="1" selection-start-line="284" selection-start-column="1" selection-end-line="284" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webLearnMaths/src/css/normalize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/oldWebSite2/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -429,7 +395,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="22" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -437,15 +402,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -453,7 +409,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -461,16 +416,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="78" selection-start-line="30" selection-start-column="78" selection-end-line="30" selection-end-column="78" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#h1#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -478,7 +423,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="48" column="35" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -486,7 +430,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="795">
           <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -494,7 +437,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -502,7 +444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -510,11 +451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="79" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="79" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -522,7 +458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -530,15 +465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -546,7 +472,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -554,16 +479,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="78" selection-start-line="30" selection-start-column="78" selection-end-line="30" selection-end-column="78" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#h1#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -571,7 +486,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="48" column="35" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -579,7 +493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="795">
           <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -587,7 +500,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -595,7 +507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -603,11 +514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -615,7 +521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -623,7 +528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -631,7 +535,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -639,11 +542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -651,7 +549,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -667,7 +564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -675,11 +571,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="79" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="79" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -687,7 +578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="23" column="22" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -695,15 +585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -711,7 +592,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -719,16 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="78" selection-start-line="30" selection-start-column="78" selection-end-line="30" selection-end-column="78" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#h1#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -736,7 +606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="48" column="35" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -744,7 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="771">
           <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -752,15 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-720">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oldWebSite3/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="771">
-          <caret line="86" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="86" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -768,7 +627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="284" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -784,22 +642,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webLearnMaths/src/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="771">
+        <state relative-caret-position="4260">
           <caret line="284" column="1" selection-start-line="284" selection-start-column="1" selection-end-line="284" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webLearnMaths/src/quotes.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="47" column="116" selection-start-line="47" selection-start-column="116" selection-end-line="47" selection-end-column="116" />
           <folding />
         </state>
       </provider>
@@ -814,24 +663,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webLearnMaths/src/aim.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
+        <state relative-caret-position="555">
           <caret line="37" column="64" selection-start-line="37" selection-start-column="64" selection-end-line="37" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webLearnMaths/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webLearnMaths/src/resources.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        <state relative-caret-position="705">
+          <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webLearnMaths/src/quotes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="47" column="116" selection-start-line="47" selection-start-column="116" selection-end-line="47" selection-end-column="116" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oldWebSite3/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="77" column="28" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webLearnMaths/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="52" column="54" selection-start-line="52" selection-start-column="54" selection-end-line="52" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webLearnMaths2/src/example.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webLearnMaths2/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webLearnMaths2/src/aim.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="40" column="15" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webLearnMaths2/src/gettingStarted.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
           <folding />
         </state>
       </provider>
