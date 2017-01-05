@@ -102,16 +102,39 @@ body{
     width: 100%;
     font-size: 16pt;
     font-family: Helvetica, Arial, sans-serif;
+
+    min-width: 320px;
 }
 
-nav{
-    background-color: #5E44D5;
+header {
     position: fixed;
-    margin: 0;
-    padding: 1em;
+    top: 0;
     width: 100%;
     font-size: 1em;
     font-weight: 100;
+
+    min-width: 320px;
+}
+
+header h1 {
+    margin-top: 0;
+
+    font-size: 1.8em;
+    font-weight: lighter;
+    text-align: center;
+
+    background-color: #C851CA;
+    width: 100%;
+}
+
+nav {
+    background-color: #5E44D5;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.nav-links {
+    padding: 1em 2em 1em 1em;
 }
 
 nav ul{
@@ -145,6 +168,24 @@ nav li a:active {
     color:  #cccccc;
 }
 
+nav ul.title {
+    background-color: #C851CA;
+    padding-left: 0;
+}
+
+nav li.title {
+    padding: 1em;
+    float:none;
+text-align: center;
+
+}
+
+.nav-last {
+    margin-right: 0;
+}
+
+
+
 h1{
     margin: 0;
     font-size: 1.1em;
@@ -165,17 +206,6 @@ li {
 p {
     font-size: 0.786em;
     font-weight: lighter;
-}
-
-header h1 {
-    margin-top: 0;
-
-    font-size: 1.8em;
-    font-weight: lighter;
-    text-align: center;
-
-    background-color: #C851CA;
-    width: 100%;
 }
 
 footer {
@@ -242,6 +272,15 @@ footer p {
 
     color: #ffffff;
 }
+
+.top {
+    margin-top: 5em;
+}
+
+.typeB.top {
+    margin-top: 9em;
+}
+
 
 
 

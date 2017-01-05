@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c923634e-e45e-4291-8431-b818da1886f6" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webLearnMaths3/css/main.css" afterPath="$PROJECT_DIR$/webLearnMaths3/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webLearnMaths3/how.html" afterPath="$PROJECT_DIR$/webLearnMaths3/how.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webLearnMaths3/index.html" afterPath="$PROJECT_DIR$/webLearnMaths3/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webLearnMaths3/what.html" afterPath="$PROJECT_DIR$/webLearnMaths3/what.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webLearnMaths3/who.html" afterPath="$PROJECT_DIR$/webLearnMaths3/who.html" />
     </list>
     <ignored path="bobbyberta.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,11 +33,11 @@
       <file leaf-file-name="what.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webLearnMaths3/what.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+            <state relative-caret-position="330">
+              <caret line="28" column="66" selection-start-line="28" selection-start-column="66" selection-end-line="28" selection-end-column="66" />
               <folding>
-                <marker date="1483625137000" expanded="true" signature="608:761" ph="..." />
-                <marker date="1483625137000" expanded="true" signature="701:729" ph="..." />
+                <marker date="1483632681000" expanded="true" signature="608:761" ph="..." />
+                <marker date="1483632681000" expanded="true" signature="701:729" ph="..." />
               </folding>
             </state>
           </provider>
@@ -41,11 +46,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webLearnMaths3/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+            <state relative-caret-position="270">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="66" />
               <folding>
-                <marker date="1483624647000" expanded="true" signature="608:761" ph="..." />
-                <marker date="1483624647000" expanded="true" signature="701:729" ph="..." />
+                <marker date="1483632656000" expanded="true" signature="608:761" ph="..." />
+                <marker date="1483632656000" expanded="true" signature="701:729" ph="..." />
               </folding>
             </state>
           </provider>
@@ -54,11 +59,11 @@
       <file leaf-file-name="who.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webLearnMaths3/who.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+            <state relative-caret-position="315">
+              <caret line="28" column="66" selection-start-line="28" selection-start-column="66" selection-end-line="28" selection-end-column="66" />
               <folding>
-                <marker date="1483625413000" expanded="true" signature="608:761" ph="..." />
-                <marker date="1483625413000" expanded="true" signature="701:729" ph="..." />
+                <marker date="1483632681000" expanded="true" signature="608:761" ph="..." />
+                <marker date="1483632681000" expanded="true" signature="701:729" ph="..." />
               </folding>
             </state>
           </provider>
@@ -67,11 +72,11 @@
       <file leaf-file-name="how.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webLearnMaths3/how.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="72" column="36" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
+            <state relative-caret-position="210">
+              <caret line="28" column="66" selection-start-line="28" selection-start-column="66" selection-end-line="28" selection-end-column="66" />
               <folding>
-                <marker date="1483625187000" expanded="true" signature="608:761" ph="..." />
-                <marker date="1483625187000" expanded="true" signature="701:729" ph="..." />
+                <marker date="1483632681000" expanded="true" signature="608:761" ph="..." />
+                <marker date="1483632681000" expanded="true" signature="701:729" ph="..." />
               </folding>
             </state>
           </provider>
@@ -80,8 +85,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webLearnMaths3/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="161" column="25" selection-start-line="161" selection-start-column="25" selection-end-line="161" selection-end-column="25" />
+            <state relative-caret-position="525">
+              <caret line="115" column="21" selection-start-line="115" selection-start-column="21" selection-end-line="115" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -142,8 +147,8 @@
         <option value="$PROJECT_DIR$/webLearnMaths2/src/how.html" />
         <option value="$PROJECT_DIR$/webLearnMaths3/index.html" />
         <option value="$PROJECT_DIR$/webLearnMaths3/what.html" />
-        <option value="$PROJECT_DIR$/webLearnMaths3/how.html" />
         <option value="$PROJECT_DIR$/webLearnMaths3/who.html" />
+        <option value="$PROJECT_DIR$/webLearnMaths3/how.html" />
         <option value="$PROJECT_DIR$/webLearnMaths3/css/main.css" />
       </list>
     </option>
@@ -409,12 +414,12 @@
       <workItem from="1481808057487" duration="594000" />
       <workItem from="1482836515173" duration="4314000" />
       <workItem from="1483451596943" duration="3377000" />
-      <workItem from="1483523926005" duration="17374000" />
+      <workItem from="1483523926005" duration="20993000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75753000" />
+    <option name="totallyTimeSpent" value="79372000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -745,52 +750,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webLearnMaths3/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+        <state relative-caret-position="270">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="66" />
           <folding>
-            <marker date="1483624647000" expanded="true" signature="608:761" ph="..." />
-            <marker date="1483624647000" expanded="true" signature="701:729" ph="..." />
+            <marker date="1483632656000" expanded="true" signature="608:761" ph="..." />
+            <marker date="1483632656000" expanded="true" signature="701:729" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webLearnMaths3/what.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+        <state relative-caret-position="330">
+          <caret line="28" column="66" selection-start-line="28" selection-start-column="66" selection-end-line="28" selection-end-column="66" />
           <folding>
-            <marker date="1483625137000" expanded="true" signature="608:761" ph="..." />
-            <marker date="1483625137000" expanded="true" signature="701:729" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webLearnMaths3/how.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="72" column="36" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
-          <folding>
-            <marker date="1483625187000" expanded="true" signature="608:761" ph="..." />
-            <marker date="1483625187000" expanded="true" signature="701:729" ph="..." />
+            <marker date="1483632681000" expanded="true" signature="608:761" ph="..." />
+            <marker date="1483632681000" expanded="true" signature="701:729" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webLearnMaths3/who.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        <state relative-caret-position="315">
+          <caret line="28" column="66" selection-start-line="28" selection-start-column="66" selection-end-line="28" selection-end-column="66" />
           <folding>
-            <marker date="1483625413000" expanded="true" signature="608:761" ph="..." />
-            <marker date="1483625413000" expanded="true" signature="701:729" ph="..." />
+            <marker date="1483632681000" expanded="true" signature="608:761" ph="..." />
+            <marker date="1483632681000" expanded="true" signature="701:729" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webLearnMaths3/how.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="28" column="66" selection-start-line="28" selection-start-column="66" selection-end-line="28" selection-end-column="66" />
+          <folding>
+            <marker date="1483632681000" expanded="true" signature="608:761" ph="..." />
+            <marker date="1483632681000" expanded="true" signature="701:729" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webLearnMaths3/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="161" column="25" selection-start-line="161" selection-start-column="25" selection-end-line="161" selection-end-column="25" />
+        <state relative-caret-position="525">
+          <caret line="115" column="21" selection-start-line="115" selection-start-column="21" selection-end-line="115" selection-end-column="21" />
           <folding />
         </state>
       </provider>
