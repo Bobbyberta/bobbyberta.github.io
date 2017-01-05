@@ -147,18 +147,23 @@ nav li a:active {
 
 h1{
     margin: 0;
-    font-size: 1.5em;
+    font-size: 1.1em;
     font-weight: normal;
 }
 
 h2{
     margin: 0;
-    font-size: 1.5em;
+    font-size: 1.1em;
     font-weight: normal;
 }
 
+li {
+    font-size: 0.786em;
+    font-weight: lighter;
+}
+
 p {
-    font-size: 1em;
+    font-size: 0.786em;
     font-weight: lighter;
 }
 
@@ -171,6 +176,21 @@ header h1 {
 
     background-color: #C851CA;
     width: 100%;
+}
+
+footer {
+    background-color: #5E44D5;
+    margin: 0;
+    padding: 0.01em;
+    width: 100%;
+    font-size: 0.8em;
+    font-weight: 100;
+    text-align: center;
+    opacity: 0.5;
+}
+
+footer p {
+    opacity: 0.9;
 }
 
 .typeA {
