@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c923634e-e45e-4291-8431-b818da1886f6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webLearnMaths3/how.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webLearnMaths3/what.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webLearnMaths3/who.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webLearnMaths2/src/how.html" afterPath="$PROJECT_DIR$/webLearnMaths2/src/how.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webLearnMaths2/src/what.html" afterPath="$PROJECT_DIR$/webLearnMaths2/src/what.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webLearnMaths2/src/who.html" afterPath="$PROJECT_DIR$/webLearnMaths2/src/who.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webLearnMaths3/css/main.css" afterPath="$PROJECT_DIR$/webLearnMaths3/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webLearnMaths3/index.html" afterPath="$PROJECT_DIR$/webLearnMaths3/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webLearnMaths3/who.html" afterPath="$PROJECT_DIR$/webLearnMaths3/who.html" />
     </list>
     <ignored path="bobbyberta.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,14 +51,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="who.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="who.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webLearnMaths3/who.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
+            <state relative-caret-position="270">
+              <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
               <folding>
-                <marker date="1483625112000" expanded="true" signature="608:761" ph="..." />
-                <marker date="1483625112000" expanded="true" signature="701:729" ph="..." />
+                <marker date="1483625413000" expanded="true" signature="608:761" ph="..." />
+                <marker date="1483625413000" expanded="true" signature="701:729" ph="..." />
               </folding>
             </state>
           </provider>
@@ -85,7 +77,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webLearnMaths3/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-303">
@@ -149,10 +141,10 @@
         <option value="$PROJECT_DIR$/webLearnMaths2/src/what.html" />
         <option value="$PROJECT_DIR$/webLearnMaths2/src/how.html" />
         <option value="$PROJECT_DIR$/webLearnMaths3/index.html" />
-        <option value="$PROJECT_DIR$/webLearnMaths3/who.html" />
         <option value="$PROJECT_DIR$/webLearnMaths3/what.html" />
         <option value="$PROJECT_DIR$/webLearnMaths3/how.html" />
         <option value="$PROJECT_DIR$/webLearnMaths3/css/main.css" />
+        <option value="$PROJECT_DIR$/webLearnMaths3/who.html" />
       </list>
     </option>
   </component>
@@ -417,12 +409,12 @@
       <workItem from="1481808057487" duration="594000" />
       <workItem from="1482836515173" duration="4314000" />
       <workItem from="1483451596943" duration="3377000" />
-      <workItem from="1483523926005" duration="16645000" />
+      <workItem from="1483523926005" duration="16717000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75024000" />
+    <option name="totallyTimeSpent" value="75096000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -762,17 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webLearnMaths3/who.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
-          <folding>
-            <marker date="1483625112000" expanded="true" signature="608:761" ph="..." />
-            <marker date="1483625112000" expanded="true" signature="701:729" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webLearnMaths3/what.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -800,6 +781,17 @@
         <state relative-caret-position="-303">
           <caret line="155" column="18" selection-start-line="155" selection-start-column="18" selection-end-line="155" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webLearnMaths3/who.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+          <folding>
+            <marker date="1483625413000" expanded="true" signature="608:761" ph="..." />
+            <marker date="1483625413000" expanded="true" signature="701:729" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
