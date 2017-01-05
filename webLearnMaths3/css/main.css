@@ -95,19 +95,133 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body{
+    background-color: #000000;
+    color: #ffffff;
+    margin-top: 0;
+    width: 100%;
+    font-size: 16pt;
+    font-family: Helvetica, Arial, sans-serif;
+}
 
+nav{
+    background-color: #5E44D5;
+    position: fixed;
+    margin: 0;
+    padding: 1em;
+    width: 100%;
+    font-size: 1em;
+    font-weight: 100;
+}
 
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+}
 
+nav li{
+    float: left;
+    margin-right: 2em;
+}
 
+nav li a:link {
+    text-decoration: none;
+    color:  #ffffff;
+}
 
+nav li a:visited {
+    text-decoration: none;
+    color:  #ffffff;
+}
 
+nav li a:hover {
+    text-decoration: none;
+    color:  #cccccc;
+}
 
+nav li a:active {
+    text-decoration: none;
+    color:  #cccccc;
+}
 
+h1{
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: normal;
+}
 
+h2{
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: normal;
+}
 
+p {
+    font-size: 1em;
+    font-weight: lighter;
+}
 
+header h1 {
+    margin-top: 0;
 
+    font-size: 1.8em;
+    font-weight: lighter;
+    text-align: center;
 
+    background-color: #C851CA;
+    width: 100%;
+}
+
+.typeA {
+    border-radius: 1em;
+    background-color: #C851CA;
+    padding: 1em;
+    margin: 2em;
+}
+
+.typeB {
+    border-radius: 1em;
+    background-color: #5E44D5;
+    padding: 1em;
+    margin: 2em;
+}
+
+.typeC {
+    border-radius: 1em;
+    background-color: #FDF733;
+    padding: 1em;
+    margin: 1em;
+
+    color: #5E44D5;
+}
+
+.typeD {
+    border-radius: 1em;
+    background-color: #76F135;
+    padding: 1em;
+    margin: 1em;
+
+    color: #5E44D5;
+}
+
+.typeE {
+    border-radius: 1em;
+    background-color: #6CF8FC;
+    padding: 1em;
+    margin: 1em;
+
+    color: #5E44D5;
+}
+
+.typeF {
+    border-radius: 1em;
+    background-color: #E4A05C;
+    padding: 1em;
+    margin: 1em;
+
+    color: #ffffff;
+}
 
 
 
