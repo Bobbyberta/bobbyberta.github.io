@@ -85790,11 +85790,11 @@ GreaterThan.Fish.prototype._addBody = function () {
 
   switch (i) {
     case 0:
-      bodyImage = "bodyA";
+      bodyImage = "fishB1";
       this.pointsValue = 3;
       break;
     case 1:
-      bodyImage = "bodyB";
+      bodyImage = "fishA1";
       this.pointsValue = 4;
       break;
     case 2:
@@ -85805,6 +85805,10 @@ GreaterThan.Fish.prototype._addBody = function () {
   //Fish Base behind number
   this.fishBody = game.add.sprite(0, -5, bodyImage);
   this.fishBody.anchor.setTo(0.5, 0.5);
+
+  var swim = this.fishBody.animations.add('swim');
+  this.fishBody.animations.play('swim', 30, true);
+
   this.addChild(this.fishBody);
 };
 
@@ -86431,6 +86435,8 @@ GreaterThan.Main.prototype = {
         //speed of player movement
         this._playerMovement(this.gameState.playerSpeed);
         this.collisionDetection();
+
+        this.animate();
     },
 
     render: function render() {
@@ -86713,6 +86719,14 @@ GreaterThan.Main.prototype = {
         this.fuelMarker = this.add.image(10, 0, 'fuelMarker');
         this.fuelMarker.anchor.setTo(0, 0.5);
         this.fuelBase.addChild(this.fuelMarker);
+
+        this.lightening = this.add.image(7, 0, 'lightening');
+        this.lightening.anchor.setTo(0, 0.5);
+        this.fuelBase.addChild(this.lightening);
+
+        this.dial = this.add.image(315, -28, 'dial');
+        this.dial.anchor.setTo(0.5, 0.5);
+        this.fuelBase.addChild(this.dial);
     },
     animateFuel: function animateFuel() {
         game.add.tween(this.fuelTop.scale).to({ x: 0, y: 1 }, GreaterThan.CONFIG.roundTime, null, true, 0, Infinity);
@@ -87076,6 +87090,7 @@ GreaterThan.Main.prototype = {
             relation: relation,
             equalTo: equalTo
         });
+
         this.greaterLesserGroup.add(fish);
 
         groupOfObjects.push(fish);
@@ -87131,6 +87146,10 @@ GreaterThan.Main.prototype = {
     _addTreasureSpeed: function _addTreasureSpeed(object) {
         object.body.velocity.x = game.rnd.integerInRange(-50, 50);
         object.body.velocity.y = game.rnd.integerInRange(-50, 50);
+    },
+
+    animate: function animate() {
+        this.dial.angle += 1;
     },
 
     //collision detection
@@ -87733,6 +87752,14 @@ GreaterThan.Menu.prototype = {
         this.fuelMarker.anchor.setTo(0, 0.5);
         this.fuelBase.addChild(this.fuelMarker);
 
+        this.lightening = this.add.image(7, 0, 'lightening');
+        this.lightening.anchor.setTo(0, 0.5);
+        this.fuelBase.addChild(this.lightening);
+
+        this.dial = this.add.sprite(310, -28, 'dial');
+        this.dial.anchor.setTo(0, 0.5);
+        this.fuelBase.addChild(this.dial);
+
         // game.add.tween(this.fuelMid.scale).to({ x: 1, y: 0}, 6000, null, true,);
     },
     _addFish: function _addFish() {
@@ -87832,6 +87859,9 @@ GreaterThan.Preloader.prototype = {
         this.game.load.spritesheet('mouse', 'assets2/mouseSprite110x203.png', 110, 203, 2);
         this.game.load.spritesheet('arrow', 'assets2/arrowSprite226x149.png', 226, 149, 2);
         this.game.load.spritesheet('joystick', 'assets2/joystickSprite183x183.png', 183, 183, 2);
+
+        this.game.load.spritesheet('fishB1', 'assets2/fishTypeB1Sprite129x135.png', 129, 135, 8);
+        this.game.load.spritesheet('fishA1', 'assets2/fishTypeA1Sprite112x70.png', 112, 70, 8);
     },
 
     create: function create() {

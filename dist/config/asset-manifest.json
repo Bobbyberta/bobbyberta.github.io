@@ -40,6 +40,8 @@
     "fuelMid": "assets2/healthBar1.png",
     "fuelTop": "assets2/healthBar2.png",
     "fuelMarker": "assets2/fuelBarTop.png",
+    "lightening": "assets2/blueLightening.png",
+    "dial": "assets2/uiTimerCog.png",
 
     "greaterEqual": "assets/enemyGreaterEqual.png",
     "lesserEqual": "assets/enemyLessEqual.png",
