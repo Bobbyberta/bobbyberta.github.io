@@ -9,16 +9,79 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Oli.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Oli" startnode="4" creator="Twine" creator-version="2.3.16" ifid="07795CC5-1C7C-4C07-998E-11CA510F390F" zoom="1" format="Harlowe" format-version="3.2.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Intro" tags="" position="412,186" size="100,100">#Introduction text
-You arrive in a house with a small garden ready for planting
-In your hand is a old book
+<tw-storydata name="Oli" startnode="2" creator="Twine" creator-version="2.3.16" ifid="07795CC5-1C7C-4C07-998E-11CA510F390F" zoom="1" format="Harlowe" format-version="3.2.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Opening Scene" tags="" position="412,186" size="100,100">The town square is quiet, the noise of the day long faded and only the rustling of the wind blowing through overgrown weeds disturbs the silence.
+You are standing next to a statue that sits in the centre of the space. Its base is overgrown and moss obscures the inscription carved into its pedestal. The statue itself is of two figures, faceless and twisted unnaturally around each other. Their hands are clasped above their heads, and a single, beautiful flower is seen growing from between their fingers.
 
-[[Read Book-&gt;Location: Spell Book]]
-[[Go to garden-&gt;Location: Garden]]
+[[Read the statue’s inscription. -&gt;Object: Statue]]
+[[Explore the square. -&gt;Location: Town Square]]
 
-//hidden stats//
-(set: $day to 1)
-day = $day</tw-passagedata><tw-passagedata pid="2" name="Location: Spell Book" tags="" position="337,336" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="3" name="Location: Garden" tags="" position="487,336" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="4" name="Start Game" tags="" position="415,60" size="100,100">[[Start-&gt;Intro]]</tw-passagedata></tw-storydata>
+[[Log Book -&gt;Log]]</tw-passagedata><tw-passagedata pid="2" name="Start Game" tags="" position="415,60" size="100,100">Loading Screen
+[[Start-&gt;Opening Scene]]</tw-passagedata><tw-passagedata pid="3" name="Object: Statue" tags="" position="340,337" size="100,100">You pull the moss away from the stonework. The text is worn, but you’re able to make out the following.
+
+//Roman and Turiana
+The founders of our town
+And bringers of the Rose.//
+
+[[Explore the square. -&gt;Location: Town Square]]
+
+[[Log Book -&gt;Log]]</tw-passagedata><tw-passagedata pid="4" name="Location: Town Square" tags="" position="460,468" size="100,100">The uneven cobbles are disconcerting as you step away from the statue, but your tired legs soon find their footing.
+A dozen wooden market stalls line the space, their goods packed away and their shutters pulled down.
+There are no other people around, but lights are coming from a number of buildings around the space - some residential and some functional. Roads runs to the north, south, east and west and lead further into the town.
+There is the sound of music coming from a squat building with a thatched roof. The windows are made of thick glass set in lead - the visible people inside are distorted and strange. Over the closed door there is a swinging sign that creaks as the wind catches it. It reads The Blooming Rose, with a painted flower underneath.
+Across the road, a church building stands silhouetted against the last glows of the setting sun. It has a tall spire and wide open doors, a warm light spilling out from inside. The entrance is flanked on either side by ornate stained glass. Each shows a figure, looking down upon the doorway, a crimson flower held in their hand.
+
+[[Read the statue’s inscription. -&gt;Object: Statue]]
+
+[[To the North -&gt;Location: North]]
+[[To The Blooming Rose -&gt;Location: The Blooming Rose]]
+[[To the church -&gt;Location: the church]]
+[[To the East -&gt;Location: East]]
+[[To the South -&gt;Location: South]]
+[[To the West -&gt;Location: West]]
+
+[[Log Book -&gt;Log]]</tw-passagedata><tw-passagedata pid="5" name="Log" tags="" position="532,186" size="100,100">Log
+
+(if:(history: where its name contains &quot;Location: Beyond the North&quot;)&#39;s length is not 0)[&#39;&#39;Note&#39;&#39; 
+//Crimson Rot: No access beyond this point without authorisation.//]
+
+(if:(history: where its name contains &quot;Object: Statue&quot;)&#39;s length is not 0)[&#39;&#39;Statue&#39;s inscription&#39;&#39;
+//Roman and Turiana
+The founders of our town
+And bringers of the Rose.//]</tw-passagedata><tw-passagedata pid="6" name="Location: The Blooming Rose" tags="" position="100,625" size="100,100">...
+
+[[Back to the square. -&gt;Location: Town Square]] 
+
+[[Log Book -&gt;Log]]</tw-passagedata><tw-passagedata pid="7" name="Location: the church" tags="" position="267,629" size="100,100">...
+
+[[Back to the square. -&gt;Location: Town Square]] 
+
+[[Log Book -&gt;Log]]</tw-passagedata><tw-passagedata pid="8" name="Location: North" tags="" position="419,627" size="100,100">The street narrows as the cobbles transition into smooth flagstones. Ahead, the street lamps disappear down the road, but you can go no further. The way is blocked by a barricade. 
+Slats of wood have been nailed together, forming an uneven criss-cross that is impassable. There is a piece of paper nailed to the front of it.
+
+[[Look closer -&gt; Location: Beyond the North]]
+[[Go back. -&gt;Location: Town Square]] 
+
+[[Log Book -&gt;Log]]</tw-passagedata><tw-passagedata pid="9" name="Location: East" tags="" position="568,613" size="100,100">...
+
+[[Back to the square. -&gt;Location: Town Square]] 
+
+[[Log Book -&gt;Log]]</tw-passagedata><tw-passagedata pid="10" name="Location: South" tags="" position="718,607" size="100,100">...
+
+[[Back to the square. -&gt;Location: Town Square]] 
+
+[[Log Book -&gt;Log]]</tw-passagedata><tw-passagedata pid="11" name="Location: West" tags="" position="859,609" size="100,100">...
+
+[[Back to the square. -&gt;Location: Town Square]] 
+
+[[Log Book -&gt;Log]]</tw-passagedata><tw-passagedata pid="12" name=" Location: Beyond the North" tags="" position="498,770" size="100,100">On the other side the buildings are dark, shutters closed and doors barred.
+In the distance you can just make out a large building that is glowing like a beacon.
+The piece of paper has a message written on it, and is affixed with a mayoral seal.
+
+//Crimson Rot: No access beyond this point without authorisation.//
+
+[[Back to the square. -&gt;Location: Town Square]] 
+
+[[Log Book -&gt;Log]]</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">"use strict";var _slicedToArray=function(){return function(e,t){if(Array.isArray(e))return e;if(Symbol.iterator in Object(e))return function(e,t){var n=[],r=!0,a=!1,i=void 0;try{for(var o,s=e[Symbol.iterator]();!(r=(o=s.next()).done)&&(n.push(o.value),!t||n.length!==t);r=!0);}catch(e){a=!0,i=e}finally{try{!r&&s.return&&s.return()}finally{if(a)throw i}}return n}(e,t);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}!function(){
 /**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
