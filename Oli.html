@@ -9,14 +9,18 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Oli.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Oli" startnode="2" creator="Twine" creator-version="2.3.16" ifid="07795CC5-1C7C-4C07-998E-11CA510F390F" zoom="1" format="Harlowe" format-version="3.2.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Opening Scene" tags="" position="412,186" size="100,100">The town square is quiet, the noise of the day long faded and only the rustling of the wind blowing through overgrown weeds disturbs the silence.
+<tw-storydata name="Oli" startnode="2" creator="Twine" creator-version="2.3.16" ifid="07795CC5-1C7C-4C07-998E-11CA510F390F" zoom="1" format="Harlowe" format-version="3.2.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Opening Scene" tags="" position="412,186" size="100,100">&#39;&#39;Town Square&#39;&#39;
+
+The town square is quiet, the noise of the day long faded and only the rustling of the wind blowing through overgrown weeds disturbs the silence.
 You are standing next to a statue that sits in the centre of the space. Its base is overgrown and moss obscures the inscription carved into its pedestal. The statue itself is of two figures, faceless and twisted unnaturally around each other. Their hands are clasped above their heads, and a single, beautiful flower is seen growing from between their fingers.
 
 [[Read the statue’s inscription. -&gt;Object: Statue]]
 [[Explore the square. -&gt;Location: Town Square]]
 
 [[Log Book -&gt;Log]]</tw-passagedata><tw-passagedata pid="2" name="Start Game" tags="" position="415,60" size="100,100">Loading Screen
-[[Start-&gt;Opening Scene]]</tw-passagedata><tw-passagedata pid="3" name="Object: Statue" tags="" position="340,337" size="100,100">You pull the moss away from the stonework. The text is worn, but you’re able to make out the following.
+[[Start-&gt;Opening Scene]]</tw-passagedata><tw-passagedata pid="3" name="Object: Statue" tags="" position="340,337" size="100,100">&#39;&#39;Read the statue’s inscription&#39;&#39;
+
+You pull the moss away from the stonework. The text is worn, but you’re able to make out the following.
 
 //Roman and Turiana
 The founders of our town
@@ -24,7 +28,9 @@ And bringers of the Rose.//
 
 [[Explore the square. -&gt;Location: Town Square]]
 
-[[Log Book -&gt;Log]]</tw-passagedata><tw-passagedata pid="4" name="Location: Town Square" tags="" position="460,468" size="100,100">The uneven cobbles are disconcerting as you step away from the statue, but your tired legs soon find their footing.
+[[Log Book -&gt;Log]]</tw-passagedata><tw-passagedata pid="4" name="Location: Town Square" tags="" position="460,468" size="100,100">&#39;&#39;Explore the square&#39;&#39;
+
+(if:visits is 1)[The uneven cobbles are disconcerting as you step away from the statue, but your tired legs soon find their footing.]
 A dozen wooden market stalls line the space, their goods packed away and their shutters pulled down.
 There are no other people around, but lights are coming from a number of buildings around the space - some residential and some functional. Roads runs to the north, south, east and west and lead further into the town.
 There is the sound of music coming from a squat building with a thatched roof. The windows are made of thick glass set in lead - the visible people inside are distorted and strange. Over the closed door there is a swinging sign that creaks as the wind catches it. It reads The Blooming Rose, with a painted flower underneath.
@@ -47,15 +53,19 @@ Across the road, a church building stands silhouetted against the last glows of 
 (if:(history: where its name contains &quot;Object: Statue&quot;)&#39;s length is not 0)[&#39;&#39;Statue&#39;s inscription&#39;&#39;
 //Roman and Turiana
 The founders of our town
-And bringers of the Rose.//]</tw-passagedata><tw-passagedata pid="6" name="Location: The Blooming Rose" tags="" position="100,625" size="100,100">...
+And bringers of the Rose.//]</tw-passagedata><tw-passagedata pid="6" name="Location: The Blooming Rose" tags="" position="100,625" size="100,100">&#39;&#39;To The Blooming Rose&#39;&#39;
+...
 
 [[Back to the square. -&gt;Location: Town Square]] 
 
-[[Log Book -&gt;Log]]</tw-passagedata><tw-passagedata pid="7" name="Location: the church" tags="" position="267,629" size="100,100">...
+[[Log Book -&gt;Log]]</tw-passagedata><tw-passagedata pid="7" name="Location: the church" tags="" position="267,629" size="100,100">&#39;&#39;To the church&#39;&#39;
+...
 
 [[Back to the square. -&gt;Location: Town Square]] 
 
-[[Log Book -&gt;Log]]</tw-passagedata><tw-passagedata pid="8" name="Location: North" tags="" position="419,627" size="100,100">The street narrows as the cobbles transition into smooth flagstones. Ahead, the street lamps disappear down the road, but you can go no further. The way is blocked by a barricade. 
+[[Log Book -&gt;Log]]</tw-passagedata><tw-passagedata pid="8" name="Location: North" tags="" position="419,627" size="100,100">&#39;&#39;To the north&#39;&#39;
+
+The street narrows as the cobbles transition into smooth flagstones. Ahead, the street lamps disappear down the road, but you can go no further. The way is blocked by a barricade. 
 Slats of wood have been nailed together, forming an uneven criss-cross that is impassable. There is a piece of paper nailed to the front of it.
 
 [[Look closer -&gt; Location: Beyond the North]]
@@ -73,7 +83,9 @@ Slats of wood have been nailed together, forming an uneven criss-cross that is i
 
 [[Back to the square. -&gt;Location: Town Square]] 
 
-[[Log Book -&gt;Log]]</tw-passagedata><tw-passagedata pid="12" name=" Location: Beyond the North" tags="" position="498,770" size="100,100">On the other side the buildings are dark, shutters closed and doors barred.
+[[Log Book -&gt;Log]]</tw-passagedata><tw-passagedata pid="12" name=" Location: Beyond the North" tags="" position="498,770" size="100,100">&#39;&#39;Look closer&#39;&#39;
+
+On the other side the buildings are dark, shutters closed and doors barred.
 In the distance you can just make out a large building that is glowing like a beacon.
 The piece of paper has a message written on it, and is affixed with a mayoral seal.
 
@@ -101,3 +113,4 @@ root=this,factory=function(){var e,t,n=Function.call.bind(Function.apply),r=Func
 
 </body>
 </html>
+
