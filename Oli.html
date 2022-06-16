@@ -11,19 +11,14 @@
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play OliBob.</tw-noscript></noscript></tw-story>
 <tw-storydata name="OliBob" startnode="2" creator="Twine" creator-version="2.3.16" ifid="07795CC5-1C7C-4C07-998E-11CA510F390F" zoom="1" format="Harlowe" format-version="3.2.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Opening Scene" tags="" position="412,186" size="100,100">&#39;&#39;Town Square&#39;&#39;
 
-The town square is quiet, the noise of the day long faded and only the rustling of the wind blowing through overgrown weeds disturbs the silence.
-
-You are standing next to a statue that sits in the centre of the space. Its base is overgrown and moss obscures the inscription carved into its pedestal. The statue itself is of two figures, faceless and twisted unnaturally around each other. Their hands are clasped above their heads, and a single, beautiful flower is seen growing from between their fingers.
-
 [[Read the statue’s inscription. -&gt;Object: Statue]]
 [[Explore the square. -&gt;Location: Town Square]]
 
 [[Log Book -&gt;Log]]</tw-passagedata><tw-passagedata pid="2" name="Start Game" tags="" position="415,60" size="100,100">Loading Screen
 [[Start-&gt;Opening Scene]]
 
-(set: $Victor to &quot;the hooden stranger&quot;)</tw-passagedata><tw-passagedata pid="3" name="Object: Statue" tags="" position="340,337" size="100,100">&#39;&#39;Read the statue’s inscription&#39;&#39;
-
-(if:visits is 1)[You pull the moss away from the stonework. The text is worn, but you’re able to make out the following.]
+(set: $Victor to &quot;the hooden stranger&quot;)
+(set: $Laika to &quot;the figure&quot;)</tw-passagedata><tw-passagedata pid="3" name="Object: Statue" tags="" position="340,337" size="100,100">&#39;&#39;Read the statue’s inscription&#39;&#39;
 
 //Roman and Turiana
 The founders of our town
@@ -33,20 +28,12 @@ And bringers of the Rose.//
 
 [[Log Book -&gt;Log]]</tw-passagedata><tw-passagedata pid="4" name="Location: Town Square" tags="" position="460,468" size="100,100">&#39;&#39;Explore the square&#39;&#39;
 
-(if:visits is 1)[The uneven cobbles are disconcerting as you step away from the statue, but your tired legs soon find their footing.]
-A dozen wooden market stalls line the space, their goods packed away and their shutters pulled down.
-
-There are no other people around, but lights are coming from a number of buildings around the space - some residential and some functional. Roads runs to the north, south, east and west and lead further into the town.
-
-There is the sound of music coming from a squat building with a thatched roof. The windows are made of thick glass set in lead - the visible people inside are distorted and strange. Over the closed door there is a swinging sign that creaks as the wind catches it. It reads &#39;&#39;The Blooming Rose&#39;&#39;, with a painted flower underneath.
-
-Across the road, a church building stands silhouetted against the last glows of the setting sun. It has a tall spire and wide open doors, a warm light spilling out from inside. The entrance is flanked on either side by ornate stained glass. Each shows a figure, looking down upon the doorway, a crimson flower held in their hand.
-
 [[Read the statue’s inscription. -&gt;Object: Statue]]
 
-[[To the North -&gt;Location: North]]
 [[To The Blooming Rose -&gt;Location: The Blooming Rose Doorway]]
 [[To the church -&gt;Location: the church]]
+
+[[To the North -&gt;Location: North]]
 [[To the East -&gt;Location: East]]
 [[To the South -&gt;Location: South]]
 [[To the West -&gt;Location: West]]
@@ -59,11 +46,11 @@ Across the road, a church building stands silhouetted against the last glows of 
 (if:(history: where its name contains &quot;Object: Statue&quot;)&#39;s length is not 0)[&#39;&#39;Statue&#39;s inscription&#39;&#39;
 //Roman and Turiana
 The founders of our town
-And bringers of the Rose.//]</tw-passagedata><tw-passagedata pid="6" name="Location: The Blooming Rose Doorway" tags="" position="100,625" size="100,100">&#39;&#39;To The Blooming Rose&#39;&#39;
+And bringers of the Rose.//]</tw-passagedata><tw-passagedata pid="6" name="Location: The Blooming Rose Doorway" tags="" position="100,625" size="100,100">&#39;&#39;The Blooming Rose Doorway&#39;&#39;
 ...
 
 [[Enter The Blooming Rose -&gt;Location: The Blooming Rose Lobby]] 
-[[Explore the Alley -&gt; Location: Aley]]
+[[Explore the Alley -&gt; Location: Alley]]
 [[Back to the square. -&gt;Location: Town Square]] 
 
 
@@ -74,18 +61,8 @@ And bringers of the Rose.//]</tw-passagedata><tw-passagedata pid="6" name="Locat
 
 [[Log Book -&gt;Log]]</tw-passagedata><tw-passagedata pid="8" name="Location: North" tags="" position="498,608" size="100,100">&#39;&#39;To the north&#39;&#39;
 
-The street narrows as the cobbles transition into smooth flagstones. Ahead, the street lamps disappear down the road, but you can go no further. The way is blocked by a barricade. 
-
-Slats of wood have been nailed together, forming an uneven criss-cross that is impassable. There is a piece of paper nailed to the front of it.
-
-[[Look closer -&gt; Location: Beyond the North]]
-
-To one side, a figure stands leaning against the wall of the nearest building. They watch you, arms folded, their eyes peering out from behind an ornate porcelain facemask.
-
-(if:(history: where its name contains &quot;Person: Laika&quot;)&#39;s length is 0)[[[Talk to the figure-&gt; Person: Laika]]]
-
-(if:(history: where its name contains &quot;Person: Laika&quot;)&#39;s length &gt;= 1)[[[Talk to Laika-&gt; Person: Laika]]]
-
+[[Look Beyond the North -&gt; Location: Beyond the North]]
+[[[Talk to $Laika-&gt; Person: Laika]]]
 
 [[Go back. -&gt;Location: Town Square]] 
 
@@ -103,42 +80,36 @@ To one side, a figure stands leaning against the wall of the nearest building. T
 
 [[Log Book -&gt;Log]]</tw-passagedata><tw-passagedata pid="12" name=" Location: Beyond the North" tags="" position="648,606" size="100,100">&#39;&#39;Look closer&#39;&#39;
 
-On the other side the buildings are dark, shutters closed and doors barred.
-
-In the distance you can just make out a large building that is glowing like a beacon.
-
-The piece of paper has a message written on it, and is affixed with a mayoral seal.
-
 //Crimson Rot: No access beyond this point without authorisation.//
 
 [[Back to the square. -&gt;Location: Town Square]] 
+[[Back to the north. -&gt;Location: North]] 
 
-[[Log Book -&gt;Log]]</tw-passagedata><tw-passagedata pid="13" name=" Person: Laika" tags="" position="493,744" size="100,100">&#39;&#39;Talk to (if:(history: where its name contains &quot;Dialogue: Laika \&quot;Who are you?\&quot;&quot;)&#39;s length &gt;= 1)[Laika](else:)[the figure]&#39;&#39;
-
-(if:visits is 1)[They’re wearing dark red robes, the pockets bulging with who-knows-what. Their mask is slightly cracked, and patterned with golden lines depicting birds in flight.
-
-They say nothing as you approach, but their posture stiffens a little.]
+[[Log Book -&gt;Log]]</tw-passagedata><tw-passagedata pid="13" name=" Person: Laika" tags="" position="493,744" size="100,100">&#39;&#39;Talk to $Laika&#39;&#39;
 
 (if:(history: where its name contains &quot;Dialogue: Laika \&quot;Who are you?\&quot;&quot;)&#39;s length is 0)[[[Ask “Who are you?” -&gt; Dialogue: Laika &quot;Who are you?&quot;]]]
 
 (if:(history: where its name contains &quot;Dialogue: Laika \&quot;What are you doing here?\”&quot;)&#39;s length is 0)[[[Ask “What are you doing here?” -&gt; Dialogue: Laika &quot;What are you doing here?”]]]
 
-[[Leave.-&gt;Location: North]]</tw-passagedata><tw-passagedata pid="14" name=" Location: Aley" tags="" position="12,775" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="15" name="Location: The Blooming Rose Lobby" tags="" position="153,769" size="100,100">&#39;&#39;Enter The Blooming Rose&#39;&#39;
+[[Leave.-&gt;Location: North]]</tw-passagedata><tw-passagedata pid="14" name=" Location: Alley" tags="" position="12,775" size="100,100">&#39;&#39;Alley&#39;&#39;
 
-(if:$Victor is &quot;the hooden stranger&quot;)[A person sitting at a table in the corner notices your arrival and beckons you over. ](else:)[$Victor is sitting at the table.]
+[[Go Back -&gt;Location: The Blooming Rose Doorway]]</tw-passagedata><tw-passagedata pid="15" name="Location: The Blooming Rose Lobby" tags="" position="153,769" size="100,100">&#39;&#39;Enter The Blooming Rose&#39;&#39;
 
 [[Approach $Victor -&gt; Person: Victor]]
 
 [[Sit at the bar. -&gt; Location: Blooming Rose Bar]]
 Speak to...
 
-[[Leave. -&gt;Location: The Blooming Rose Doorway]] </tw-passagedata><tw-passagedata pid="16" name=" Location: Blooming Rose Bar" tags="" position="153,921" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="17" name=" Person: Victor" tags="" position="273,921" size="100,100">&#39;&#39;Approach $Victor&#39;&#39;
+[[Leave. -&gt;Location: The Blooming Rose Doorway]] </tw-passagedata><tw-passagedata pid="16" name=" Location: Blooming Rose Bar" tags="" position="153,921" size="100,100">Blooming Rose Bar
+
+[[Go Back -&gt;Location: The Blooming Rose Lobby]]</tw-passagedata><tw-passagedata pid="17" name=" Person: Victor" tags="" position="273,921" size="100,100">&#39;&#39;Approach $Victor&#39;&#39;
 
 (if:(history: where its name contains &quot;Dialogue: Victor \&quot;Who are you?\&quot;&quot;)&#39;s length is 0)[[[Ask “Who are you?” -&gt;Dialogue: Victor &quot;Who are you?&quot;]]]
 
 [[Next -&gt;Location: The Blooming Rose Lobby]] </tw-passagedata><tw-passagedata pid="18" name=" Dialogue: Laika &quot;Who are you?&quot;" tags="" position="564,881" size="100,100">&#39;&#39;“Who are you?”&#39;&#39;
+(set: $Laika to &quot;Laika&quot;)
 
-Laika
+$Laika
 
 [[Next-&gt; Person: Laika]]</tw-passagedata><tw-passagedata pid="19" name=" Dialogue: Laika &quot;What are you doing here?”" tags="" position="684,880" size="100,100">&#39;&#39;“What are you doing here?”&#39;&#39;
 
@@ -166,4 +137,5 @@ root=this,factory=function(){var e,t,n=Function.call.bind(Function.apply),r=Func
 
 </body>
 </html>
+
 
